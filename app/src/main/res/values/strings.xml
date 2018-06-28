@@ -1,0 +1,117 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Marvel MCU Quiz \nApp</string>
+
+    <!-- Number 1-->
+    <string name="nr1">1)</string>
+
+    <!-- Number 2-->
+    <string name="nr2">2)</string>
+
+    <!-- Number 3-->
+    <string name="nr3">3)</string>
+
+    <!-- Number 4-->
+    <string name="nr4">4)</string>
+
+    <!-- Number 5-->
+    <string name="nr5">5)</string>
+
+    <!-- Number 6-->
+    <string name="nr6">6)</string>
+
+
+    <!-- Text for the Welcome TextView [CHAR LIMIT=20] -->
+    <string name="welcome1">Stan Lee presents the</string>
+
+    <!-- Text for the Welcome TextView [CHAR LIMIT=20] -->
+    <string name="welcome2">marvel • cinematic • universe</string>
+
+    <!-- Text for the Welcome TextView [CHAR LIMIT=20] -->
+    <string name="welcome3">a MCU production</string>
+
+    <!-- Text for the first question TextView [CHAR LIMIT=20] -->
+    <string name="question1">What was the first film in the MCU called? (1 point)</string>
+
+    <!-- Text for the second question TextView [CHAR LIMIT=20] -->
+    <string name="question2">Vision and Scarlet Witch belong to which group of heroes? (1 point)</string>
+
+    <!-- Text for the third question TextView [CHAR LIMIT=20] -->
+    <string name="question3">Who wields the Infinity Gauntlet? (1 point)</string>
+
+    <!-- Text for the fourth question TextView [CHAR LIMIT=20] -->
+    <string name="question4">Which two are NOT part of the Avengers? (2 points)</string>
+
+    <!-- Text for the fifth question TextView [CHAR LIMIT=20] -->
+    <string name="question5">Who is the new Sorcerer Supreme? (2 points)</string>
+
+    <!-- Text for the sixth question TextView [CHAR LIMIT=20] -->
+    <string name="question6">King T\'Challa is also known as The &#8230; (3 points)</string>
+
+    <!-- Text for the sixth question TextView. (3 Points) is on a new line [CHAR LIMIT=20] -->
+    <string name="question6_linebreak">King T\'Challa is also known as The &#8230; \n(3 points)</string>
+
+
+    <!-- Text for the first Radio button for question 1 [CHAR LIMIT=20] -->
+    <string name="thor">Thor</string>
+
+    <!-- Text for the second Radio button for question 1 [CHAR LIMIT=20] -->
+    <string name="iron_man">Iron Man</string>
+
+    <!-- Text for the third Radio button for question 1 [CHAR LIMIT=20] -->
+    <string name="hulk">The Incredible Hulk</string>
+
+    <!-- Text for the last Radio button for question 1 [CHAR LIMIT=20] -->
+    <string name="captain_america">Captain America: The First Avenger</string>
+
+
+    <!-- Text for the first Radio button for question 2 [CHAR LIMIT=20] -->
+    <string name="the_avengers">The Avengers</string>
+
+    <!-- Text for the second Radio button for question 2 [CHAR LIMIT=20] -->
+    <string name="shield">S.H.I.E.L.D</string>
+
+    <!-- Text for the third Radio button for question 2 [CHAR LIMIT=20] -->
+    <string name="hydra">Hydra</string>
+
+    <!-- Text for the last Radio button for question 2 [CHAR LIMIT=20] -->
+    <string name="fantastic_four">The Fantastic Four</string>
+
+
+    <!-- Text for the first Radio button for question 3 [CHAR LIMIT=20] -->
+    <string name="hawkeye">Hawkeye</string>
+
+    <!-- Text for the second Radio button for question 3 [CHAR LIMIT=20] -->
+    <string name="antman">Antman</string>
+
+    <!-- Text for the third Radio button for question 3 [CHAR LIMIT=20] -->
+    <string name="guardians">Guardians of the Galaxy</string>
+
+    <!-- Text for the last Radio button for question 3 [CHAR LIMIT=20] -->
+    <string name="thanos">Thanos</string>
+
+
+    <!-- Text for the first checkbox for question 4 [CHAR LIMIT=20] -->
+    <string name="nick_fury">Nick Fury</string>
+
+    <!-- Text for the second checkbox for question 4 [CHAR LIMIT=20] -->
+    <string name="stan_lee">Stan Lee</string>
+
+    <!-- Text for the third checkbox for question 4 [CHAR LIMIT=20] -->
+    <string name="natasha_romanoff">Natasha Romanoff</string>
+
+    <!-- Text for the last checkbox for question 4 [CHAR LIMIT=20] -->
+    <string name="sam_wilson">Sam Wilson</string>
+
+
+    <!-- Hint text for the fifth question EditTextView [CHAR LIMIT=20] -->
+    <string name="dr_strange_hint">Two words</string>
+
+    <!-- Hint text for the sixth question EditTextView [CHAR LIMIT=20] -->
+    <string name="black_panther_hint">Two words</string>
+
+    <!-- Text for the Submit Button [CHAR LIMIT=20] -->
+    <string name="submit">Submit</string>
+
+</resources>
