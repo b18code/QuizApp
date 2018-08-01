@@ -3,4 +3,17 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the app -->
+    <color name="background_color_app">#e0e0e0</color>
+
+    <!--Color for all question and answer texts in the app -->
+    <color name="text_color">#000000</color>
+
+    <!-- Background color for Welcome TextView -->
+    <color name="intro_background">#ed1d19</color>
+
+    <!-- Background color for views -->
+    <color name="view_background">#000000</color>
+
 </resources>

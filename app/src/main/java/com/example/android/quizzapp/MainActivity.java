@@ -1,3 +1,6 @@
+
+// Please note: Marvel images and all its related characters belong to Marvel Comics and Marvel Studios.
+
 package com.example.android.quizzapp;
 
 import android.content.res.Configuration;
@@ -41,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
      * This method is called when the Submit button is clicked
      *
      * @param view if everything is correctly completed a toast message appears with the user's final score
-     *             and all questions that were incorrectly answered if the user got less then 10 as a score
+     *             and if the user got less then 10 as a score, the score and all questions that were
+     *             incorrectly answered are shown in the toast message
      */
     public void submitAnswers(View view) {
 
@@ -86,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         String blackPanther = blackpantherEditTextView.getText().toString().trim();
 
 
-        //The If statements check that all questions are answered, then checks if the list of check boxes has only two checks
+        //The If statements check that all questions are answered, then checks if the list of check boxes has only two checks (question 4)
         if (checkQ1RadioButtons.getCheckedRadioButtonId() == -1) {
             Toast.makeText(this, "Question 1 not answered.", Toast.LENGTH_LONG).show();
         } else if (checkQ2RadioButtons.getCheckedRadioButtonId() == -1) {
@@ -137,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
 
                     //scoreMessage stores the text returned from the lessThenFullScoreMessage method
-                    String scoreMessage = lessThenFullScoreMessage(choseIronMan, choseAvengers, choseThanos,
+                    String scoreMessage =  getLessThenFullScoreMessage(choseIronMan, choseAvengers, choseThanos,
                             checkedNickFury, checkedStanLee, checkedNatasha, checkedSamWilson, finalEditScore);
 
                     //You get this toast message if the score is less then 10
@@ -282,7 +286,7 @@ public class MainActivity extends AppCompatActivity {
      * @return the text message for the toast message
      */
 
-    private String lessThenFullScoreMessage(boolean choseIronMan, boolean choseAvengers, boolean choseThanos, boolean checkedNickFury,
+    private String getLessThenFullScoreMessage(boolean choseIronMan, boolean choseAvengers, boolean choseThanos, boolean checkedNickFury,
                                             boolean checkedStanLee, boolean checkedNatasha, boolean checkedSamWilson, int finalEditScore) {
 
         //scoreMessage will store the text for the totalscore integer and the text for each question that was incorrect

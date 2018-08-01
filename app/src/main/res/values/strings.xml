@@ -111,6 +111,7 @@
     <!-- Hint text for the sixth question EditTextView [CHAR LIMIT=20] -->
     <string name="black_panther_hint">Two words</string>
 
+
     <!-- Text for the Submit Button [CHAR LIMIT=20] -->
     <string name="submit">Submit</string>
 
