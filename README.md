@@ -14,4 +14,6 @@ Each question is validated such as: are all the questions answered, which questi
 
 Link to G-Drive: https://drive.google.com/drive/folders/1kjBvbNhGIJL7LSTurLdSDBUL2XvFW3yS?usp=sharing
 
+(The  G-Drive contains the apk before some codes wrere rearranged into the color.xml and styles.xml)
+
 Please note: Marvel and all its related characters belong to Marvel Comics and Marvel Studios.
